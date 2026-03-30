@@ -146,14 +146,14 @@ export default function FeaturesSection() {
           Join today to discover more about the server.
         </motion.p>
         <motion.button
-          onClick={() => navigator.clipboard.writeText('beetlesmp.com')}
+          onClick={() => navigator.clipboard.writeText('beetlesmp.fun')}
           className="inline-flex items-center gap-3 px-6 py-3 rounded-xl border border-white/[0.06] bg-white/[0.02] transition-colors duration-200 hover:border-white/[0.12] cursor-pointer"
           initial={{ opacity: 0, y: 15 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.1 }}
         >
-          <span className="font-tech text-sm font-medium text-white tracking-wider">beetlesmp.com</span>
+          <span className="font-tech text-sm font-medium text-white tracking-wider">beetlesmp.fun</span>
           <span className="text-[10px] font-medium tracking-wider uppercase text-neutral-500">Copy to Join</span>
         </motion.button>
       </div>
