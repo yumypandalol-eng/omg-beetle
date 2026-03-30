@@ -48,10 +48,10 @@ export default function Footer() {
             <ul className="space-y-1.5">
               <li>
                 <button
-                  onClick={() => navigator.clipboard.writeText('beetlesmp.com')}
+                  onClick={() => navigator.clipboard.writeText('beetlesmp.fun')}
                   className="text-xs text-neutral-500 hover:text-white transition-colors cursor-pointer font-tech tracking-wider"
                 >
-                  beetlesmp.com
+                  beetlesmp.fun
                 </button>
               </li>
               <li className="text-xs text-neutral-500">Java Edition</li>
