@@ -101,10 +101,10 @@ export default function AboutSection() {
                     <span className="block text-[9px] text-neutral-500 mt-0.5 tracking-wider uppercase">Discord</span>
                   </a>
                   <button
-                    onClick={() => navigator.clipboard.writeText('beetlesmp.com')}
+                    onClick={() => navigator.clipboard.writeText('beetlesmp.fun')}
                     className="flex-1 px-4 py-2.5 rounded-lg border border-white/[0.04] text-sm text-neutral-400 text-center transition-colors duration-200 hover:border-white/[0.1] hover:text-white cursor-pointer"
                   >
-                    <span className="font-medium">beetlesmp.com</span>
+                    <span className="font-medium">beetlesmp.fun</span>
                     <span className="block text-[9px] text-neutral-500 mt-0.5 tracking-wider uppercase">Server IP</span>
                   </button>
                 </div>
