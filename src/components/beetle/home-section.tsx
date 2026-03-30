@@ -18,9 +18,9 @@ export default function HomeSection() {
 
   const copyIP = async () => {
     try {
-      await navigator.clipboard.writeText('beetlesmp.com')
+      await navigator.clipboard.writeText('beetlesmp.fun')
       setCopied(true)
-      toast.success('IP copied', { description: 'beetlesmp.com', duration: 2000 })
+      toast.success('IP copied', { description: 'beetlesmp.fun', duration: 2000 })
       setTimeout(() => setCopied(false), 2000)
     } catch {
       toast.error('Failed to copy')
