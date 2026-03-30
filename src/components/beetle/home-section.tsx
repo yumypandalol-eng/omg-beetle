@@ -73,7 +73,7 @@ export default function HomeSection() {
                 className="flex items-center gap-3 px-6 py-3 rounded-xl border border-white/[0.06] bg-white/[0.02] transition-colors duration-200 hover:border-white/[0.12] cursor-pointer"
               >
                 <span className="font-tech text-sm font-medium text-white tracking-wider">
-                  beetlesmp.com
+                  beetlesmp.fun
                 </span>
                 <span
                   className="text-[10px] font-medium tracking-wider uppercase px-2 py-1 rounded-md transition-colors duration-200"
